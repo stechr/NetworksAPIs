@@ -10,13 +10,13 @@ import org.scribe.model.Verb;
 
 public class VodafoneChargingToken {
 
-	private static final String PROTECTED_RESOURCE_URL = "http://79.125.107.152/v2/payment/tel:447994455776/transactions/amount";
+	private static final String PROTECTED_RESOURCE_URL = "http://api.developer.vodafone.com/v2/payment/tel:447994455776/transactions/amount";
 
 	public static void main(String[] args) throws MalformedURLException	{
 
 		String redirect_uri = "http://www.example/";
 		String scope = "POST-/payment/acr:Authorization/transactions/amount";
-		String client_id = "3f33a47b5aa878d49dfa8a78ac060f99";
+		String client_id = "xxx";
 		String responseType = "token";
 		VodafoneAPI api = new VodafoneAPI();
 		ServiceBuilder service = new ServiceBuilder()
