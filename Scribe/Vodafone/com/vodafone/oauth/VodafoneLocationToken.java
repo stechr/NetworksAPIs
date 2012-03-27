@@ -10,7 +10,7 @@ import org.scribe.model.Verb;
 
 public class VodafoneLocationToken {
   
-  private static final String PROTECTED_RESOURCE_URL = "http://api.developer.vodafone.com/v2/location/queries/location?address=tel%3A447825116832&requestedAccuracy=1500";
+  private static final String PROTECTED_RESOURCE_URL = "http://api.developer.vodafone.com/v2/location/queries/location?address=tel%3A447999999999&requestedAccuracy=1500";
   
   public static void main(String[] args) throws MalformedURLException
   {
