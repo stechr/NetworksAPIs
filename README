@@ -1,3 +1,6 @@
 The sample java code provided is based on open source Scribe framework hosted in github: https://github.com/fernandezpablo85/scribe-java
 
 Couple of code additions have been added to enable scopes and enabling code based OAuth flow.
+
+The Ruby code makes use of the Sinatra, RestClient and Launchy gems (sources available on github)
+
